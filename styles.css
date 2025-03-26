@@ -13,7 +13,7 @@ body {
     overflow: hidden;
 }
 
-#line {
+/* #line {
     all: unset; /* Purani CSS reset kar do */
     position: absolute !important;  /* Force absolute positioning */
     width: 200px !important;
@@ -24,4 +24,4 @@ body {
     transform: translate(-50%, -50%);
     transform-origin: center;
     display: block;
-}
+} */
