@@ -10,15 +10,17 @@ body {
     align-items: center;
     height: 100vh;
     background: #f4f4f4;
+    overflow: hidden;
 }
 
 #line {
-    position: absolute !important;  /* Ensure absolute positioning */
-    width: 200px;
-    height: 2px;
-    background-color: black;
-    top: 50%;
-    left: 50%;
+    position: absolute !important;  /* Force absolute positioning */
+    display: block !important;
+    width: 200px !important;
+    height: 2px !important;
+    background-color: black !important;
+    top: 50% !important;
+    left: 50% !important;
     transform: translate(-50%, -50%);
     transform-origin: center;
 }
