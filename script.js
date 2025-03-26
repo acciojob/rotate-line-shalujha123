@@ -1,8 +1,7 @@
-//your JS code here. If required.
-const line = document.getElementById('line');
 let angle = 0;
+const line = document.getElementById('line');
 
 setInterval(() => {
-    angle += 2;
-    line.style.transform = `rotate(${angle}deg) translate(-50%, -50%)`;
+    angle += 2;  // Increment rotation angle
+    line.style.transform = `translate(-50%, -50%) rotate(${angle}deg)`;
 }, 20);
